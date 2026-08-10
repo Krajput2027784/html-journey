@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="post">
+        <div><label for="full name">Full Name</label>
+        <input type="text" id = "Enter your name" name = "full name">
+        </div>
+
+        <div>
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" name="DOB" id="Enter your DOB">
+        </div>
+ 
+        <h2>Enter Gender</h2>
+        <div>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        </div>
+
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+
+        <div>
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other">
+        </div>
+
+        <h2>Enter your contact</h2>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="Enter your email">
+        </div>
+
+        <div>
+            <label for="phone number">Phone number</label>
+            <input type="tel" name="phone number" id="phone number">
+        </div>
+
+        <h2>Enter your academic information</h2>
+        <div>
+            <label for="roll number">Roll number</label>
+            <input type="number" name="roll number" id="roll number">
+        </div><br>
+ 
+        <div>
+            <select name="course" id="Enter your course">
+                <option value="Course">Course</option>
+                <option value="B.tech">B.tech</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+            </select>
+        </div>
+
+        <div>
+            <select name="branch" id="Enter your branch">
+                <option value="branch">Branch</option>
+                <option value="CS">CS</option>
+                <option value="CS with AI">CS with AI</option>
+                <option value="CSE">CSE</option>
+            </select>
+        </div><br>
+         
+        <div>
+            <h3>Enter your address</h3>
+            <label for="address">Address</label>
+            <textarea name="address" id="Enter your address" cols="30" rows="10"></textarea>
+        </div><br>
+
+        <div>
+            <input type="button" value="Submit">
+            
+            <input type="button" value="Reset">
+        </div>
+    </form>
+
+</body>
+</html>
